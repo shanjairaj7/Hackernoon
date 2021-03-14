@@ -584,10 +584,12 @@
       border: 5px solid $primary;
       cursor: pointer;
       font-weight: 600;
+      background-color:$dark;
 
       &:hover {
         font-size: 35px;
-        opacity: 0.9;
+        filter:brightness(1.5);
+        color: white;
       }
     }
 

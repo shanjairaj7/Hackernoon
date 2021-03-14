@@ -148,7 +148,9 @@ const Blog = ({ isDarkTheme }) => {
                         </div>
                       </div>
                       <div className="details">
-                        <p>{story?.estimatedTime}</p>
+                        {story.estimatedTime && (
+                          <p>{story?.estimatedTime}min</p>
+                        )}
                         <p>{moment(story?.createdAt).format("dd/mm/yy")}</p>
                       </div>
                     </div>
@@ -190,7 +192,7 @@ const Blog = ({ isDarkTheme }) => {
             >
               Join Hacker Noon 👓
             </a>
-            <p>
+            <p style={{ color: isDarkTheme && "white" }}>
               Create your free account to unlock your custom reading experience.
             </p>
           </div>
