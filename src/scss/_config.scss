@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: inline;
+}
+
+img {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

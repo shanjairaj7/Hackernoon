@@ -1,0 +1,20 @@
+.primary__nav__button {
+  padding: 0px 15px;
+  border: 2px solid $secondary;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.secondary__nav__button {
+  padding: 10px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+
+  &:hover {
+    border: 2px solid $secondary;
+    background-color: #32ff32;
+  }
+}
